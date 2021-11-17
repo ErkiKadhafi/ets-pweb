@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+            integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>Erki | Web Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <div style="background: #1f1f1f; height: 10vh">
+                <nav
+                    class="
+                        text-white
+                        flex
+                        justify-between
+                        items-center
+                        h-full
+                        w-4/5
+                        m-auto
+                    "
+                >
+                    <div class="flex space-x-3">
+                        <img
+                            class="h-8 w-8 block rounded-full"
+                            src="./assets/erki 1.png"
+                            alt="my-photo"
+                            style="background: #07841b"
+                        />
+                        <span class="font-bold">Erki Kadhafi</span>
+                    </div>
+                    <div class="flex space-x-5">
+                        <a
+                            style="transition: all 0.2s ease-in-out"
+                            onmouseover="this.style.color='#087a22'"
+                            onMouseOut="this.style.color='#fff'"
+                            href="/"
+                            class="underline"
+                            >Home</a
+                        >
+                        <a
+                            style="transition: all 0.2s ease-in-out"
+                            onmouseover="this.style.color='#087a22'"
+                            onMouseOut="this.style.color='#fff'"
+                            href="./download_cv.html"
+                            >Download CV</a
+                        >
+                        <a
+                            style="transition: all 0.2s ease-in-out"
+                            onmouseover="this.style.color='#087a22'"
+                            onMouseOut="this.style.color='#fff'"
+                            href="./contact.html"
+                            >Contact</a
+                        >
+                        <a
+                            style="transition: all 0.2s ease-in-out"
+                            onmouseover="this.style.color='#087a22'"
+                            onMouseOut="this.style.color='#fff'"
+                            href="./about.html"
+                            >About Me</a
+                        >
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section style="background: #1f1f1f; min-height: 90vh">
+                <div
+                    class="
+                        flex
+                        justify-between
+                        text-white
+                        w-4/5
+                        m-auto
+                        py-14
+                        px-16
+                        space-x-5
+                    "
+                >
+                    <div class="space-y-5 py-16">
+                        <h5 class="text-3xl font-bold" style="color: #1b7931">
+                            Hi, i'm Erki Kadhafi
+                        </h5>
+                        <h1 class="text-4xl font-bold">
+                            Software Developer Who Likes Web Developement.
+                        </h1>
+                        <p
+                            class="text-lg font-extralight"
+                            style="color: rgb(206, 205, 205)"
+                        >
+                            I am a software developer with robust
+                            problem-solving skills with high persistence in
+                            achieving the best result. I love new challenges and
+                            passionate about tech stuff. Currently I am learning
+                            at
+                            <span class="font-semibold underline"
+                                ><a href="https://www.its.ac.id/" target="blank"
+                                    >Institute Technology of Sepuluh Nopember</a
+                                > </span
+                            >.
+                        </p>
+                        <div class="flex items-center space-x-5">
+                            <button
+                                class="py-3 px-6 rounded-sm text-lg space-x-2"
+                                style="
+                                    background: #087a22;
+                                    transition: all 0.2s ease-in-out;
+                                "
+                                onmouseover="this.style.backgroundColor='#065719'"
+                                onMouseOut="this.style.backgroundColor='#087a22'"
+                            >
+                                <i class="fas fa-envelope"></i>
+                                <span>Email Me</span>
+                            </button>
+                            <div class="space-x-3">
+                                <a
+                                    href="https://www.linkedin.com/in/erkikadhafi/"
+                                    target="blank"
+                                    ><i
+                                        class="
+                                            fab
+                                            fa-linkedin
+                                            text-3xl text-gray-300
+                                            hover:text-gray-400
+                                        "
+                                        style="transition: all 0.2s ease-in-out"
+                                    ></i
+                                ></a>
+                                <a
+                                    href="https://github.com/ErkiKadhafi"
+                                    target="blank"
+                                >
+                                    <i
+                                        class="
+                                            fab
+                                            fa-github
+                                            text-3xl text-gray-300
+                                            hover:text-gray-400
+                                        "
+                                        style="transition: all 0.2s ease-in-out"
+                                    ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <img
+                            src="./assets/my-photo.png"
+                            alt=""
+                            style="width: 50rem"
+                        />
+                    </div>
+                </div>
+            </section>
+            <section
+                style="
+                    background: #1f1f1f;
+                    min-height: 30vh;
+                    padding-bottom: 3rem;
+                "
+            >
+                <div class="text-white w-2/5 m-auto">
+                    <div class="grid grid-cols-6 bg-gray-500">
+                        <!-- header  -->
+                        <div
+                            class="
+                                py-2
+                                col-span-6
+                                text-center
+                                border-b-2
+                                font-bold
+                            "
+                        >
+                            My Techstack
+                        </div>
+                        <!-- table header techstaack  -->
+                        <div
+                            class="
+                                py-2
+                                col-span-3
+                                border-b-2
+                                text-center
+                                border-r-2
+                            "
+                        >
+                            Frontend
+                        </div>
+                        <div class="py-2 col-span-3 border-b-2 text-center">
+                            Backend
+                        </div>
+                        <!-- table row 1  -->
+                        <div
+                            class="
+                                py-2
+                                col-span-3
+                                text-center
+                                border-r-2
+                                flex
+                                items-center
+                                justify-center
+                                space-x-3
+                            "
+                        >
+                            <i class="fab fa-sass text-2xl"></i>
+                            <span>Sass</span>
+                        </div>
+                        <div
+                            class="
+                                py-2
+                                col-span-3
+                                text-center
+                                flex
+                                items-center
+                                justify-center
+                                space-x-3
+                            "
+                        >
+                            <i class="fab fa-laravel text-2xl"></i>
+                            <span>Laravel</span>
+                        </div>
+                        <!-- table row 2  -->
+                        <div
+                            class="
+                                py-2
+                                col-span-3
+                                text-center
+                                border-r-2
+                                flex
+                                items-center
+                                justify-center
+                                space-x-3
+                            "
+                        >
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div
+                            class="
+                                py-2
+                                col-span-3
+                                text-center
+                                flex
+                                items-center
+                                justify-center
+                                space-x-3
+                            "
+                        >
+                            <i class="fab fa-node-js text-2xl"></i>
+                            <span>Node</span>
+                        </div>
+                        <!-- table row 3  -->
+                        <div
+                            class="
+                                py-2
+                                col-span-3
+                                text-center
+                                border-r-2
+                                flex
+                                items-center
+                                justify-center
+                                space-x-3
+                            "
+                        >
+                            <i class="fab fa-react text-2xl"></i>
+                            <span>ReactJs</span>
+                        </div>
+                        <div
+                            class="
+                                py-2
+                                col-span-3
+                                text-center
+                                flex
+                                items-center
+                                justify-center
+                                space-x-3
+                            "
+                        >
+                            <i class="fab fa-js-square text-2xl"></i>
+                            <span>Javacript</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer
+            class="text-white flex items-center justify-center"
+            style="background: #111111; min-height: 10vh"
+        >
+            <h3>&copy; Erki Kadhafi | 2021</h3>
+        </footer>
+    </body>
+</html>
